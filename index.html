@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fokir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <link rel="stylesheet" href="Fonts/SourceSansPro-Bold.otf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</html>
+
+
+<body>
+    <header>
+        <nav>
+            <!-- Checkbox for toggling menu -->
+            <input type="checkbox" id="check">
+            <!-- Menu icon -->
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <!-- Site logo -->
+            <label class="logo">Fokir</label>
+            <!-- Navigation links -->
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Testimonial">Testimonial</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Contactus">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header_content">
+            <h3>Hello i'm</h3>
+            <h1><span class="myname">MOSTAFA DIAB</span></h1>
+            <h4 class="blinking">
+                <span class="change">Professional Web Developer</span>
+            </h4>
+        </div>
+    </header>
+
+
+
+
+
+
+    <section class="section1" id="About">
+        <div class="section1_content">
+            <div class="porfile-photo">
+                <img src="Images/About/work-7.jpg" alt="porfile-photo">
+                <div class="wrapper" >
+                    <div class="profile-ico">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="about-porfile-photo">
+                <h2>HELLO,</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod t
+                    empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    . Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                    qui officia deserunt mollit anim id est laborum.</p>
+                <ul>
+                    <li>Name:<span>Mostafa Diab</span></li>
+                    <li>Job Title:<span>UI/UX Designer</span></li>
+                    <li>Age:<span>26 Year</span></li>
+                    <li>Location:<span>United States, US</span></li>
+                    <li>Freelance:<span>Available</span></li>
+                    <li>E-mail:<a href="#">Example@gmail.com</a></li>
+                </ul>
+                <button>Donload CV <i class="fa-solid fa-download"></i></button>
+                <button>Hire Me<i class="fa-solid fa-paper-plane"></i><i class="bi bi-send-fill"></i> </button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="Services">
+        <div class="section2">
+            <div class="section2_header">
+                <h2>Our Services</h2>
+                <div class="line"></div>
+            </div>
+            <div class="section2_content">
+                <div class="single-service">
+                    <div class="single-service-inner">
+                        <i class="icofont icofont-calculations"></i>
+                        <h3>UI/UX DESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <div class="single-service-inner">
+                        <i class="icofont icofont-code"></i>
+                        <h3>APP DEVELOPMENT</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <div class="single-service-inner">
+                        <i class="icofont icofont-dashboard-web"></i>
+                        <h3 >PRODUCT DESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <div class="single-service-inner">
+                        <i class="icofont icofont-ui-settings"></i>
+                        <h3>UI/UX DESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="Portfolio">
+        <div class="title">
+            <h2>Our Portfolio</h2>
+        </div>
+        <div class="line"></div>
+        <div class="button">
+            <button id="change">All</button>
+            <button>GRAPHIC</button>
+            <button>WEB DESIGN</button>
+            <button>BRANDING</button>
+        </div>
+        <div class="image-grid">
+            <div class="portfolio">
+                <a href="">
+                    <img src="Images/portfolio/1.jpg" alt="Image 1">
+                    <div class="hidden">
+                        <div class="portfolio-view">
+                            <i class="fa-regular fa-file-image"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="">
+                    <img src="Images/portfolio/2.jpg" alt="Image 2">
+                    <div class="portfolio-view">
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="">
+                    <img src="Images/portfolio/3.jpg" alt="Image 3">
+                    <div class="portfolio-view">
+                        <i class="fa-regular fa-file-video"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="">
+                    <img src="Images/portfolio/4.jpg" alt="Image 4">
+                    <div class="portfolio-view">
+                        <i class="fa-regular fa-file-image"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="">
+                    <img src="Images/portfolio/5.jpg" alt="Image 5">
+                    <div class="portfolio-view">
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="">
+                    <img src="Images/portfolio/6.jpg" alt="Image 6">
+                    <div class="portfolio-view">
+                        <i class="fa-regular fa-file-image"></i>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section id="counter">
+        <div class="count_container">
+            <div class="count_content">
+                <i class="fa-solid fa-users"></i>
+                <h3>128</h3>
+                <h5>Team members</h5>
+            </div>
+            <div class="count_content">
+                <i class="fa-sharp-duotone fa-solid fa-copy"></i>
+                <h3>220</h3>
+                <h5>Complete Projects</h5>
+            </div>
+            <div class="count_content">
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <h3>1152</h3>
+                <h5>Files Downloaded</h5>
+            </div>
+            <div class="count_content">
+                <i class="fa-solid fa-mug-saucer"></i>
+                <h3>768</h3>
+                <h5>Lines Of Code</h5>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="Testimonial">
+        <div class="container">
+            <div class="Testimonial_head">
+                <h2>Client's Feedback</h2>
+                <div class="line"></div>
+            </div>
+            <div class="Feedback">
+                <div class="feedback-image">
+                    <img src="Images/testimonial/1.jpg" alt="">
+                </div>
+                <div class="feedback-content">
+                    <div class="Location">
+                    <h3>Alex ander</h3>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eius eligendi suscipit aut odit incidunt cupiditate obcaecati
+                    </div>   
+                        harum error, a quis, excepturi iste alias?</p>
+                    <div class="icons">    
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                    </div>    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="Blog">
+        <div class="Blog-Head">
+            <h2>Our Blog</h2>
+            <div class="line"></div>
+        </div>
+        <div class="Blog-container">
+            <div class="Blog-content">
+                <div class="Our-Blog">
+                    <div class="Our-Blog-image"><img src="Images/blog/1.jpg" alt=""></div>
+                    <div class="Our-Blog-content">
+                        <div>23 November, 2015</div>
+                        <a href="#" id="Bold">Web Design Blog Post</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+                        <a href="#">READ MORE</a><i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="Blog-content">
+                <div class="Our-Blog">
+                    <div class="Our-Blog-image"><iframe src="https://www.youtube.com/embed/uVju5--RqtY?feature=oembed" frameborder=""></iframe></div>
+                    <div class="Our-Blog-content">
+                        <div>20 April, 2018</div>
+                        <a href="#" id="Bold">development Blog Post</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+                        <a href="#">READ MORE</a><i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="Blog-content">
+                <div class="Our-Blog">
+                    <div class="Our-Blog-image"><img src="Images/blog/3.jpg" alt=""></div>
+                    <div class="Our-Blog-content">
+                        <div>17 May, 2017</div>
+                        <a href="#" id="Bold">Full Width Blog Post</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+                        <a href="#">READ MORE</a><i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Contactus">
+        <div class="contactus-head">
+            <div class="contactus-head">
+                <h2>Contact Us</h2>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="contactus-content">
+            <div class="name"><input type="text" placeholder="Name"></div>
+            <div class="Email"><input type="text" placeholder="Email"></div>
+            <div class="Subject"><input type="text" placeholder="Subject"></div>
+            <div class="Message"><textarea name="Message" cols="120" rows="10" placeholder="Message For Me"></textarea></div>
+            <button>SEND MESSAGE</button>
+        </div>
+    </section>
+
+
+    <footer>
+            <div class="footer-links">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="footer-text">
+                <p>Copy Right 2018 © By <a href="#">Mostafa Diab</a> All Rights Reserved</p>
+            </div>
+    </footer>
+    
+</body>
+</html>
+
